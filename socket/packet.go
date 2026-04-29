@@ -24,7 +24,7 @@ import (
 	"net/url"
 	"sync"
 
-	"github.com/henrylee2cn/goutil"
+	"github.com/henrylee2cn/teleport/lib/goutil"
 	"github.com/henrylee2cn/teleport/codec"
 	"github.com/henrylee2cn/teleport/utils"
 	"github.com/henrylee2cn/teleport/xfer"

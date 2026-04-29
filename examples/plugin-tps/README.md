@@ -4,7 +4,7 @@ tps statistics requests per second.
 
 ### Usage
 
-`import tps "github.com/henrylee2cn/tp-ext/plugin-tps"`
+`import tps "github.com/henrylee2cn/teleport/lib/tp-ext/plugin-tps"`
 
 #### Test
 

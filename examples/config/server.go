@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/henrylee2cn/cfgo"
+	"github.com/henrylee2cn/teleport/lib/cfgo"
 	tp "github.com/henrylee2cn/teleport"
 )
 

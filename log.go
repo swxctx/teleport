@@ -19,9 +19,9 @@ import (
 	"os"
 	"sync"
 
-	"github.com/henrylee2cn/go-logging"
-	"github.com/henrylee2cn/go-logging/color"
-	"github.com/henrylee2cn/goutil/graceful"
+	"github.com/henrylee2cn/teleport/lib/go-logging"
+	"github.com/henrylee2cn/teleport/lib/go-logging/color"
+	"github.com/henrylee2cn/teleport/lib/goutil/graceful"
 )
 
 // Logger interface

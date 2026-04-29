@@ -15,7 +15,7 @@
 package plugin
 
 import (
-	"github.com/henrylee2cn/goutil"
+	"github.com/henrylee2cn/teleport/lib/goutil"
 	tp "github.com/henrylee2cn/teleport"
 	"github.com/henrylee2cn/teleport/socket"
 )

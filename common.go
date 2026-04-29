@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/henrylee2cn/goutil"
-	"github.com/henrylee2cn/goutil/pool"
+	"github.com/henrylee2cn/teleport/lib/goutil"
+	"github.com/henrylee2cn/teleport/lib/goutil/pool"
 	"github.com/henrylee2cn/teleport/codec"
 	"github.com/henrylee2cn/teleport/socket"
 	"github.com/henrylee2cn/teleport/utils"

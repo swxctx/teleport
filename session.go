@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/henrylee2cn/goutil"
-	"github.com/henrylee2cn/goutil/coarsetime"
+	"github.com/henrylee2cn/teleport/lib/goutil"
+	"github.com/henrylee2cn/teleport/lib/goutil/coarsetime"
 	"github.com/henrylee2cn/teleport/codec"
 	"github.com/henrylee2cn/teleport/socket"
 	"github.com/henrylee2cn/teleport/utils"

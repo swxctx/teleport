@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"unsafe"
 
-	"github.com/tidwall/gjson"
+	"github.com/henrylee2cn/teleport/lib/tidwall/gjson"
 
-	"github.com/henrylee2cn/goutil"
+	"github.com/henrylee2cn/teleport/lib/goutil"
 	"github.com/henrylee2cn/teleport/utils"
 )
 

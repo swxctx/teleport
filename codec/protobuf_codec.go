@@ -17,7 +17,7 @@ package codec
 import (
 	"fmt"
 
-	"github.com/gogo/protobuf/proto"
+	"github.com/henrylee2cn/teleport/lib/gogo/protobuf/proto"
 )
 
 //  protobuf codec name and id

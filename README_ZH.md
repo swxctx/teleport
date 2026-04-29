@@ -635,36 +635,36 @@ type PeerConfig struct {
 | package                                  | import                                   | description                              |
 | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | [auth](https://github.com/henrylee2cn/teleport/blob/v3/plugin/auth.go) | `import "github.com/henrylee2cn/teleport/plugin"` | A auth plugin for verifying peer at the first time |
-| [binder](https://github.com/henrylee2cn/tp-ext/blob/master/plugin-binder) | `import binder "github.com/henrylee2cn/tp-ext/plugin-binder"` | Parameter Binding Verification for Struct Handler |
-| [heartbeat](https://github.com/henrylee2cn/tp-ext/blob/master/plugin-heartbeat) | `import heartbeat "github.com/henrylee2cn/tp-ext/plugin-heartbeat"` | A generic timing heartbeat plugin        |
+| [binder](https://github.com/henrylee2cn/teleport/lib/tp-ext/blob/master/plugin-binder) | `import binder "github.com/henrylee2cn/teleport/lib/tp-ext/plugin-binder"` | Parameter Binding Verification for Struct Handler |
+| [heartbeat](https://github.com/henrylee2cn/teleport/lib/tp-ext/blob/master/plugin-heartbeat) | `import heartbeat "github.com/henrylee2cn/teleport/lib/tp-ext/plugin-heartbeat"` | A generic timing heartbeat plugin        |
 | [proxy](https://github.com/henrylee2cn/teleport/blob/v3/plugin/proxy.go) | `import "github.com/henrylee2cn/teleport/plugin"` | A proxy plugin for handling unknown pulling or pushing |
-[secure](https://github.com/henrylee2cn/tp-ext/blob/master/plugin-secure)|`import secure "github.com/henrylee2cn/tp-ext/plugin-secure"`|Encrypting/decrypting the packet body
+[secure](https://github.com/henrylee2cn/teleport/lib/tp-ext/blob/master/plugin-secure)|`import secure "github.com/henrylee2cn/teleport/lib/tp-ext/plugin-secure"`|Encrypting/decrypting the packet body
 
 ### 协议
 
 | package                                  | import                                   | description                              |
 | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | [fastproto](https://github.com/henrylee2cn/teleport/blob/v3/socket/protocol.go#L70) | `import "github.com/henrylee2cn/teleport/socket` | A fast socket communication protocol(teleport default protocol) |
-| [jsonproto](https://github.com/henrylee2cn/tp-ext/blob/master/proto-jsonproto) | `import jsonproto "github.com/henrylee2cn/tp-ext/proto-jsonproto"` | A JSON socket communication protocol     |
-| [pbproto](https://github.com/henrylee2cn/tp-ext/blob/master/proto-pbproto) | `import pbproto "github.com/henrylee2cn/tp-ext/proto-pbproto"` | A Protobuf socket communication protocol     |
+| [jsonproto](https://github.com/henrylee2cn/teleport/lib/tp-ext/blob/master/proto-jsonproto) | `import jsonproto "github.com/henrylee2cn/teleport/lib/tp-ext/proto-jsonproto"` | A JSON socket communication protocol     |
+| [pbproto](https://github.com/henrylee2cn/teleport/lib/tp-ext/blob/master/proto-pbproto) | `import pbproto "github.com/henrylee2cn/teleport/lib/tp-ext/proto-pbproto"` | A Protobuf socket communication protocol     |
 
 ### 传输过滤器
 
 | package                                  | import                                   | description                              |
 | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | [gzip](https://github.com/henrylee2cn/teleport/blob/v3/xfer/gzip.go) | `import "github.com/henrylee2cn/teleport/xfer"` | Gzip(teleport own)                       |
-| [md5Hash](https://github.com/henrylee2cn/tp-ext/blob/master/xfer-md5Hash) | `import md5Hash "github.com/henrylee2cn/tp-ext/xfer-md5Hash"` | Provides a integrity check transfer filter |
+| [md5Hash](https://github.com/henrylee2cn/teleport/lib/tp-ext/blob/master/xfer-md5Hash) | `import md5Hash "github.com/henrylee2cn/teleport/lib/tp-ext/xfer-md5Hash"` | Provides a integrity check transfer filter |
 
 ### 其他模块
 
 | package                                  | import                                   | description                              |
 | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
-| [cliSession](https://github.com/henrylee2cn/tp-ext/blob/master/mod-cliSession) | `import cliSession "github.com/henrylee2cn/tp-ext/mod-cliSession"` | Client session with a high efficient and load balanced connection pool |
-| [websocket](https://github.com/henrylee2cn/tp-ext/blob/master/mod-websocket) | `import websocket "github.com/henrylee2cn/tp-ext/mod-websocket"` | Makes the Teleport framework compatible with websocket protocol as specified in RFC 6455 |
+| [cliSession](https://github.com/henrylee2cn/teleport/lib/tp-ext/blob/master/mod-cliSession) | `import cliSession "github.com/henrylee2cn/teleport/lib/tp-ext/mod-cliSession"` | Client session with a high efficient and load balanced connection pool |
+| [websocket](https://github.com/henrylee2cn/teleport/lib/tp-ext/blob/master/mod-websocket) | `import websocket "github.com/henrylee2cn/teleport/lib/tp-ext/mod-websocket"` | Makes the Teleport framework compatible with websocket protocol as specified in RFC 6455 |
 | [html](https://github.com/xiaoenai/ants/blob/master/helper/mod-html) | `html "github.com/xiaoenai/ants/helper/mod-html"` | HTML render for http client |
 
 
-[扩展库](https://github.com/henrylee2cn/tp-ext)
+[扩展库](https://github.com/henrylee2cn/teleport/lib/tp-ext)
 
 ## 基于Teleport的项目
 
