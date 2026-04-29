@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/henrylee2cn/teleport/lib/go-logging"
+	"github.com/swxctx/teleport/lib/go-logging"
 )
 
 var log = logging.NewLogger("example")

@@ -4,8 +4,8 @@ import (
 	"log"
 	"net"
 
-	"github.com/henrylee2cn/teleport/socket"
-	"github.com/henrylee2cn/teleport/socket/example/pb"
+	"github.com/swxctx/teleport/socket"
+	"github.com/swxctx/teleport/socket/example/pb"
 )
 
 func main() {

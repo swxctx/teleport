@@ -24,11 +24,11 @@ import (
 	"io"
 	"sync"
 
-	"github.com/henrylee2cn/teleport/lib/tidwall/gjson"
+	"github.com/swxctx/teleport/lib/tidwall/gjson"
 
-	"github.com/henrylee2cn/teleport/lib/goutil"
-	"github.com/henrylee2cn/teleport/socket"
-	"github.com/henrylee2cn/teleport/utils"
+	"github.com/swxctx/teleport/lib/goutil"
+	"github.com/swxctx/teleport/socket"
+	"github.com/swxctx/teleport/utils"
 )
 
 // NewJsonProtoFunc is creation function of JSON socket protocol.

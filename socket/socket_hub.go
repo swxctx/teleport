@@ -15,7 +15,7 @@
 package socket
 
 import (
-	"github.com/henrylee2cn/teleport/lib/goutil"
+	"github.com/swxctx/teleport/lib/goutil"
 )
 
 // SocketHub sockets hub

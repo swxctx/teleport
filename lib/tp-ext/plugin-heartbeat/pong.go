@@ -19,8 +19,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/henrylee2cn/teleport/lib/goutil/coarsetime"
-	tp "github.com/henrylee2cn/teleport"
+	"github.com/swxctx/teleport/lib/goutil/coarsetime"
+	tp "github.com/swxctx/teleport"
 )
 
 // NewPong returns a heartbeat receiver plugin.

@@ -15,7 +15,7 @@ import (
 	"unicode/utf8"
 	"unsafe"
 
-	"github.com/henrylee2cn/teleport/lib/tidwall/match"
+	"github.com/swxctx/teleport/lib/tidwall/match"
 )
 
 // Type is Result type

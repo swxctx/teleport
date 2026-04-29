@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	tp "github.com/henrylee2cn/teleport"
+	tp "github.com/swxctx/teleport"
 )
 
 func main() {

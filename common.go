@@ -22,11 +22,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/henrylee2cn/teleport/lib/goutil"
-	"github.com/henrylee2cn/teleport/lib/goutil/pool"
-	"github.com/henrylee2cn/teleport/codec"
-	"github.com/henrylee2cn/teleport/socket"
-	"github.com/henrylee2cn/teleport/utils"
+	"github.com/swxctx/teleport/lib/goutil"
+	"github.com/swxctx/teleport/lib/goutil/pool"
+	"github.com/swxctx/teleport/codec"
+	"github.com/swxctx/teleport/socket"
+	"github.com/swxctx/teleport/utils"
 )
 
 // Packet types

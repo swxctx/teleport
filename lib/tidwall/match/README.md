@@ -1,7 +1,7 @@
 Match
 =====
 <a href="https://travis-ci.org/tidwall/match"><img src="https://img.shields.io/travis/tidwall/match.svg?style=flat-square" alt="Build Status"></a>
-<a href="https://godoc.org/github.com/henrylee2cn/teleport/lib/tidwall/match"><img src="https://img.shields.io/badge/api-reference-blue.svg?style=flat-square" alt="GoDoc"></a>
+<a href="https://godoc.org/github.com/swxctx/teleport/lib/tidwall/match"><img src="https://img.shields.io/badge/api-reference-blue.svg?style=flat-square" alt="GoDoc"></a>
 
 Match is a very simple pattern matcher where '*' matches on any 
 number characters and '?' matches on any one character.
@@ -10,7 +10,7 @@ Installing
 ----------
 
 ```
-go get -u github.com/henrylee2cn/teleport/lib/tidwall/match
+go get -u github.com/swxctx/teleport/lib/tidwall/match
 ```
 
 Example

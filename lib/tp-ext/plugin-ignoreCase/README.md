@@ -4,7 +4,7 @@ Dynamically ignoring the case of path
 
 ### Usage
 
-`import ignoreCase "github.com/henrylee2cn/teleport/lib/tp-ext/plugin-ignoreCase"`
+`import ignoreCase "github.com/swxctx/teleport/lib/tp-ext/plugin-ignoreCase"`
 
 #### Test
 
@@ -15,8 +15,8 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/henrylee2cn/teleport"
-	ignoreCase "github.com/henrylee2cn/teleport/lib/tp-ext/plugin-ignoreCase"
+	tp "github.com/swxctx/teleport"
+	ignoreCase "github.com/swxctx/teleport/lib/tp-ext/plugin-ignoreCase"
 )
 
 type Home struct {

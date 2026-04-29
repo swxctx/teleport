@@ -4,7 +4,7 @@
     width="240" height="78" border="0" alt="GJSON">
 <br>
 <a href="https://travis-ci.org/tidwall/gjson"><img src="https://img.shields.io/travis/tidwall/gjson.svg?style=flat-square" alt="Build Status"></a>
-<a href="https://godoc.org/github.com/henrylee2cn/teleport/lib/tidwall/gjson"><img src="https://img.shields.io/badge/api-reference-blue.svg?style=flat-square" alt="GoDoc"></a>
+<a href="https://godoc.org/github.com/swxctx/teleport/lib/tidwall/gjson"><img src="https://img.shields.io/badge/api-reference-blue.svg?style=flat-square" alt="GoDoc"></a>
 <a href="http://tidwall.com/gjson-play"><img src="https://img.shields.io/badge/play-ground-orange.svg?style=flat-square" alt="GJSON Playground"></a>
 </p>
 
@@ -23,7 +23,7 @@ Getting Started
 To start using GJSON, install Go and run `go get`:
 
 ```sh
-$ go get -u github.com/henrylee2cn/teleport/lib/tidwall/gjson
+$ go get -u github.com/swxctx/teleport/lib/tidwall/gjson
 ```
 
 This will retrieve the library.
@@ -34,7 +34,7 @@ Get searches json for the specified path. A path is in dot syntax, such as "name
 ```go
 package main
 
-import "github.com/henrylee2cn/teleport/lib/tidwall/gjson"
+import "github.com/swxctx/teleport/lib/tidwall/gjson"
 
 const json = `{"name":{"first":"Janet","last":"Prichard"},"age":47}`
 
@@ -247,7 +247,7 @@ if !ok {
 
 ## Working with Bytes
 
-If your JSON is contained in a `[]byte` slice, there's the [GetBytes](https://godoc.org/github.com/henrylee2cn/teleport/lib/tidwall/gjson#GetBytes) function. This is preferred over `Get(string(data), path)`.
+If your JSON is contained in a `[]byte` slice, there's the [GetBytes](https://godoc.org/github.com/swxctx/teleport/lib/tidwall/gjson#GetBytes) function. This is preferred over `Get(string(data), path)`.
 
 ```go
 var json []byte = ...
@@ -362,7 +362,7 @@ widget.text.data
 widget.text.size
 ```
 
-*These benchmarks were run on a MacBook Pro 15" 2.8 GHz Intel Core i7 using Go 1.8 and can be be found [here](https://github.com/henrylee2cn/teleport/lib/tidwall/gjson-benchmarks).*
+*These benchmarks were run on a MacBook Pro 15" 2.8 GHz Intel Core i7 using Go 1.8 and can be be found [here](https://github.com/swxctx/teleport/lib/tidwall/gjson-benchmarks).*
 
 
 ## Contact

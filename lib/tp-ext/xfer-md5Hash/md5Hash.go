@@ -6,7 +6,7 @@ import (
 	"crypto/md5"
 	"errors"
 
-	"github.com/henrylee2cn/teleport/xfer"
+	"github.com/swxctx/teleport/xfer"
 )
 
 // md5Hash compression filter

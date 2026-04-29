@@ -4,7 +4,7 @@ tps statistics requests per second.
 
 ### Usage
 
-`import tps "github.com/henrylee2cn/teleport/lib/tp-ext/plugin-tps"`
+`import tps "github.com/swxctx/teleport/lib/tp-ext/plugin-tps"`
 
 #### Test
 
@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/henrylee2cn/teleport"
+	tp "github.com/swxctx/teleport"
 )
 
 type Pull struct {

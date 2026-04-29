@@ -1,6 +1,6 @@
 ## Golang logging library
 
-[![godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/henrylee2cn/teleport/lib/go-logging) [![build](https://img.shields.io/travis/henrylee2cn/go-logging.svg?style=flat)](https://travis-ci.org/henrylee2cn/go-logging)
+[![godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/swxctx/teleport/lib/go-logging) [![build](https://img.shields.io/travis/henrylee2cn/go-logging.svg?style=flat)](https://travis-ci.org/henrylee2cn/go-logging)
 
 Package logging implements a logging infrastructure for Go. Its output format
 is customizable and supports different logging backends like syslog, file and
@@ -24,7 +24,7 @@ package main
 import (
 	"os"
 
-	"github.com/henrylee2cn/teleport/lib/go-logging"
+	"github.com/swxctx/teleport/lib/go-logging"
 )
 
 var log = logging.NewLogger("example")
@@ -74,19 +74,19 @@ func main() {
 
 ### Using *go get*
 
-    $ go get github.com/henrylee2cn/teleport/lib/go-logging
+    $ go get github.com/swxctx/teleport/lib/go-logging
 
 After this command *go-logging* is ready to use. Its source will be in:
 
-    $GOPATH/src/pkg/github.com/henrylee2cn/teleport/lib/go-logging
+    $GOPATH/src/pkg/github.com/swxctx/teleport/lib/go-logging
 
 You can use `go get -u` to update the package.
 
 ## Documentation
 
-For docs, see http://godoc.org/github.com/henrylee2cn/teleport/lib/go-logging or run:
+For docs, see http://godoc.org/github.com/swxctx/teleport/lib/go-logging or run:
 
-    $ godoc github.com/henrylee2cn/teleport/lib/go-logging
+    $ godoc github.com/swxctx/teleport/lib/go-logging
 
 ## Additional resources
 

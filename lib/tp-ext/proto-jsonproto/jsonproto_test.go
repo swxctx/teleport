@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/henrylee2cn/teleport"
-	jsonproto "github.com/henrylee2cn/teleport/lib/tp-ext/proto-jsonproto"
+	tp "github.com/swxctx/teleport"
+	jsonproto "github.com/swxctx/teleport/lib/tp-ext/proto-jsonproto"
 )
 
 type Home struct {

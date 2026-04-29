@@ -46,15 +46,15 @@ A concise, powerful and high-performance connection socket.
 
 - Profile torch of teleport/socket
 
-![tp_socket_profile_torch](https://github.com/henrylee2cn/teleport/raw/v3/doc/tp_socket_profile_torch.png)
+![tp_socket_profile_torch](https://github.com/swxctx/teleport/raw/v3/doc/tp_socket_profile_torch.png)
 
-**[svg file](https://github.com/henrylee2cn/teleport/raw/v3/doc/tp_socket_profile_torch.svg)**
+**[svg file](https://github.com/swxctx/teleport/raw/v3/doc/tp_socket_profile_torch.svg)**
 
 - Heap torch of teleport/socket
 
-![tp_socket_heap_torch](https://github.com/henrylee2cn/teleport/raw/v3/doc/tp_socket_heap_torch.png)
+![tp_socket_heap_torch](https://github.com/swxctx/teleport/raw/v3/doc/tp_socket_heap_torch.png)
 
-**[svg file](https://github.com/henrylee2cn/teleport/raw/v3/doc/tp_socket_heap_torch.svg)**
+**[svg file](https://github.com/swxctx/teleport/raw/v3/doc/tp_socket_heap_torch.svg)**
 
 ## Example
 
@@ -67,8 +67,8 @@ import (
 	"log"
 	"net"
 
-	"github.com/henrylee2cn/teleport/socket"
-	"github.com/henrylee2cn/teleport/socket/example/pb"
+	"github.com/swxctx/teleport/socket"
+	"github.com/swxctx/teleport/socket/example/pb"
 )
 
 func main() {
@@ -130,10 +130,10 @@ import (
 	"log"
 	"net"
 
-	"github.com/henrylee2cn/teleport/codec"
-	"github.com/henrylee2cn/teleport/socket"
+	"github.com/swxctx/teleport/codec"
+	"github.com/swxctx/teleport/socket"
 
-	"github.com/henrylee2cn/teleport/socket/example/pb"
+	"github.com/swxctx/teleport/socket/example/pb"
 )
 
 func main() {
@@ -176,7 +176,7 @@ func main() {
 }
 ```
 
-[More Examples](https://github.com/henrylee2cn/teleport/tree/v3/socket/example)
+[More Examples](https://github.com/swxctx/teleport/tree/v3/socket/example)
 
 ## Keyworks
 

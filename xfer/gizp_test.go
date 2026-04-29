@@ -3,7 +3,7 @@ package xfer_test
 import (
 	"testing"
 
-	"github.com/henrylee2cn/teleport/xfer"
+	"github.com/swxctx/teleport/xfer"
 )
 
 func TestGzip(t *testing.T) {

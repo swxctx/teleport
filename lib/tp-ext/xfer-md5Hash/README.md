@@ -4,7 +4,7 @@ Provides a integrity check transfer filter
 
 ### Usage
 
-`import md5Hash "github.com/henrylee2cn/teleport/lib/tp-ext/xfer-md5Hash"`
+`import md5Hash "github.com/swxctx/teleport/lib/tp-ext/xfer-md5Hash"`
 
 #### Test
 
@@ -15,9 +15,9 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/henrylee2cn/teleport"
-	"github.com/henrylee2cn/teleport/xfer"
-	md5Hash "github.com/henrylee2cn/teleport/lib/tp-ext/xfer-md5Hash"
+	tp "github.com/swxctx/teleport"
+	"github.com/swxctx/teleport/xfer"
+	md5Hash "github.com/swxctx/teleport/lib/tp-ext/xfer-md5Hash"
 )
 
 func TestSeparate(t *testing.T) {

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/henrylee2cn/teleport/lib/cfgo"
-	"github.com/henrylee2cn/teleport/lib/cfgo/test/m1"
-	_ "github.com/henrylee2cn/teleport/lib/cfgo/test/m2"
+	"github.com/swxctx/teleport/lib/cfgo"
+	"github.com/swxctx/teleport/lib/cfgo/test/m1"
+	_ "github.com/swxctx/teleport/lib/cfgo/test/m2"
 )
 
 type T struct {

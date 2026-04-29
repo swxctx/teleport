@@ -1,4 +1,4 @@
-# goutil [![report card](https://goreportcard.com/badge/github.com/henrylee2cn/teleport/lib/goutil?style=flat-square)](http://goreportcard.com/report/henrylee2cn/goutil) [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](http://godoc.org/github.com/henrylee2cn/teleport/lib/goutil)
+# goutil [![report card](https://goreportcard.com/badge/github.com/swxctx/teleport/lib/goutil?style=flat-square)](http://goreportcard.com/report/henrylee2cn/goutil) [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](http://godoc.org/github.com/swxctx/teleport/lib/goutil)
 
 Common and useful utils for the Go project development.
 
@@ -32,7 +32,7 @@ A bit set.
 - import it
 
     ```go
-    "github.com/henrylee2cn/teleport/lib/goutil/bitset"
+    "github.com/swxctx/teleport/lib/goutil/bitset"
     ```
 
 - New creates a bit set object.
@@ -167,7 +167,7 @@ Chinese Lunar Calendar, Solar Calendar and cron time rules.
 - import it
 
     ```go
-    "github.com/henrylee2cn/teleport/lib/goutil/calendar"
+    "github.com/swxctx/teleport/lib/goutil/calendar"
     ```
 
 [Calendar details](calendar/README.md)
@@ -179,7 +179,7 @@ The current time truncated to the nearest second.
 - import it
 
     ```go
-    "github.com/henrylee2cn/teleport/lib/goutil/coarsetime"
+    "github.com/swxctx/teleport/lib/goutil/coarsetime"
     ```
 
 - FloorTimeNow returns the current time from the range (now-100ms,now].
@@ -203,7 +203,7 @@ Errors is improved errors package.
 - import it
 
     ```go
-    "github.com/henrylee2cn/teleport/lib/goutil/errors"
+    "github.com/swxctx/teleport/lib/goutil/errors"
     ```
 
 - New returns an error that formats as the given text.
@@ -237,7 +237,7 @@ Shutdown or reboot current process gracefully.
 - import it
 
     ```go
-    "github.com/henrylee2cn/teleport/lib/goutil/graceful"
+    "github.com/swxctx/teleport/lib/goutil/graceful"
     ```
 
 - GraceSignal open graceful shutdown or reboot signal.
@@ -303,7 +303,7 @@ GoPool is a Goroutines pool. It can control concurrent numbers, reuse goroutines
 - import it
 
     ```go
-    "github.com/henrylee2cn/teleport/lib/goutil/pool"
+    "github.com/swxctx/teleport/lib/goutil/pool"
     ```
 
 - GoPool executes concurrently incoming function via a pool of goroutines in
@@ -353,7 +353,7 @@ HTTP body builder.
 - import it
 
     ```go
-    "github.com/henrylee2cn/teleport/lib/goutil/httpbody"
+    "github.com/swxctx/teleport/lib/goutil/httpbody"
     ```
 
 - NewFormBody returns form request content type and body reader.
@@ -400,7 +400,7 @@ So it is similar to database/sql's db pool.
 - import it
 
     ```go
-    "github.com/henrylee2cn/teleport/lib/goutil/pool"
+    "github.com/swxctx/teleport/lib/goutil/pool"
     ```
 
 - ResPool is a pool of zero or more underlying avatar(resource).
@@ -567,7 +567,7 @@ Performance:
 - import it
 
     ```go
-    "github.com/henrylee2cn/teleport/lib/goutil/pool"
+    "github.com/swxctx/teleport/lib/goutil/pool"
     ```
 
 - Type definition
@@ -635,7 +635,7 @@ Password check password.
 - import it
 
     ```go
-    "github.com/henrylee2cn/teleport/lib/goutil/password"
+    "github.com/swxctx/teleport/lib/goutil/password"
     ```
 
 - CheckPassword checks if the password matches the format requirements.
@@ -651,7 +651,7 @@ Various small functions.
 - import it
 
     ```go
-    "github.com/henrylee2cn/teleport/lib/goutil"
+    "github.com/swxctx/teleport/lib/goutil"
     ```
 
 - BytesToString convert []byte type to string type.

@@ -18,9 +18,9 @@ package cliSession
 import (
 	"time"
 
-	"github.com/henrylee2cn/teleport/lib/goutil/pool"
-	tp "github.com/henrylee2cn/teleport"
-	"github.com/henrylee2cn/teleport/socket"
+	"github.com/swxctx/teleport/lib/goutil/pool"
+	tp "github.com/swxctx/teleport"
+	"github.com/swxctx/teleport/socket"
 )
 
 // CliSession client session which is has connection pool

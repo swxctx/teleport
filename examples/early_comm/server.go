@@ -1,8 +1,8 @@
 package main
 
 import (
-	tp "github.com/henrylee2cn/teleport"
-	"github.com/henrylee2cn/teleport/socket"
+	tp "github.com/swxctx/teleport"
+	"github.com/swxctx/teleport/socket"
 )
 
 func main() {

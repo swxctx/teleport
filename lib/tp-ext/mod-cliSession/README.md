@@ -11,7 +11,7 @@ Client session with a high efficient and load balanced connection pool.
 
 ### Usage
 
-`import cliSession "github.com/henrylee2cn/teleport/lib/tp-ext/mod-cliSession"`
+`import cliSession "github.com/swxctx/teleport/lib/tp-ext/mod-cliSession"`
 
 #### Test
 
@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/henrylee2cn/teleport"
-	cliSession "github.com/henrylee2cn/teleport/lib/tp-ext/mod-cliSession"
+	tp "github.com/swxctx/teleport"
+	cliSession "github.com/swxctx/teleport/lib/tp-ext/mod-cliSession"
 )
 
 type Arg struct {

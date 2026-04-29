@@ -9,11 +9,11 @@ import (
 	"strconv"
 	"sync"
 
-	tp "github.com/henrylee2cn/teleport"
-	"github.com/henrylee2cn/teleport/codec"
-	socket "github.com/henrylee2cn/teleport/socket"
-	"github.com/henrylee2cn/teleport/utils"
-	"github.com/henrylee2cn/teleport/lib/tp-ext/proto-tpV2Proto/pb"
+	tp "github.com/swxctx/teleport"
+	"github.com/swxctx/teleport/codec"
+	socket "github.com/swxctx/teleport/socket"
+	"github.com/swxctx/teleport/utils"
+	"github.com/swxctx/teleport/lib/tp-ext/proto-tpV2Proto/pb"
 )
 
 // NewProtoFunc Returns teleport v2 protocol

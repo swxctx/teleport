@@ -21,8 +21,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/henrylee2cn/teleport/lib/goutil"
-	"github.com/henrylee2cn/teleport/utils"
+	"github.com/swxctx/teleport/lib/goutil"
+	"github.com/swxctx/teleport/utils"
 )
 
 type (

@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/henrylee2cn/teleport/lib/goutil"
-	tp "github.com/henrylee2cn/teleport"
-	"github.com/henrylee2cn/teleport/socket"
-	"github.com/henrylee2cn/teleport/utils"
+	"github.com/swxctx/teleport/lib/goutil"
+	tp "github.com/swxctx/teleport"
+	"github.com/swxctx/teleport/socket"
+	"github.com/swxctx/teleport/utils"
 )
 
 const (

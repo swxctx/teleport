@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/henrylee2cn/teleport/lib/cfgo"
-	tp "github.com/henrylee2cn/teleport"
+	"github.com/swxctx/teleport/lib/cfgo"
+	tp "github.com/swxctx/teleport"
 )
 
 func main() {

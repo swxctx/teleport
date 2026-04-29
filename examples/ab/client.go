@@ -7,8 +7,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	tp "github.com/henrylee2cn/teleport"
-	"github.com/henrylee2cn/teleport/socket/example/pb"
+	tp "github.com/swxctx/teleport"
+	"github.com/swxctx/teleport/socket/example/pb"
 )
 
 func main() {

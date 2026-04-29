@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/henrylee2cn/teleport/lib/goutil/calendar"
+	"github.com/swxctx/teleport/lib/goutil/calendar"
 )
 
 func TestActivation(t *testing.T) {

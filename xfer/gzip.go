@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"sync"
 
-	"github.com/henrylee2cn/teleport/utils"
+	"github.com/swxctx/teleport/utils"
 )
 
 func init() {

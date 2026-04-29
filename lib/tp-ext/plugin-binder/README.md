@@ -4,7 +4,7 @@ Parameter Binding Verification Plugin for Struct Handler.
 
 ### Usage
 
-`import binder "github.com/henrylee2cn/teleport/lib/tp-ext/plugin-binder"`
+`import binder "github.com/swxctx/teleport/lib/tp-ext/plugin-binder"`
 
 #### Param-Tags
 
@@ -56,8 +56,8 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/henrylee2cn/teleport"
-	binder "github.com/henrylee2cn/teleport/lib/tp-ext/plugin-binder"
+	tp "github.com/swxctx/teleport"
+	binder "github.com/swxctx/teleport/lib/tp-ext/plugin-binder"
 )
 
 type (

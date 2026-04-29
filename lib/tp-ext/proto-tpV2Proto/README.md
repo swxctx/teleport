@@ -19,7 +19,7 @@ HeaderLength | HeaderCodecId | Header | BodyLength | BodyCodecId | Body
 
 ### Usage
 
-`import tpV2Proto "github.com/henrylee2cn/teleport/lib/tp-ext/proto-tpV2Proto"`
+`import tpV2Proto "github.com/swxctx/teleport/lib/tp-ext/proto-tpV2Proto"`
 
 #### Test
 
@@ -30,8 +30,8 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/henrylee2cn/teleport"
-	tpV2Proto "github.com/henrylee2cn/teleport/lib/tp-ext/proto-tpV2Proto"
+	tp "github.com/swxctx/teleport"
+	tpV2Proto "github.com/swxctx/teleport/lib/tp-ext/proto-tpV2Proto"
 )
 
 type Home struct {

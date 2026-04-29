@@ -15,9 +15,9 @@
 package plugin
 
 import (
-	"github.com/henrylee2cn/teleport/lib/goutil"
-	tp "github.com/henrylee2cn/teleport"
-	"github.com/henrylee2cn/teleport/socket"
+	"github.com/swxctx/teleport/lib/goutil"
+	tp "github.com/swxctx/teleport"
+	"github.com/swxctx/teleport/socket"
 )
 
 // A proxy plugin for handling unknown pulling or pushing.

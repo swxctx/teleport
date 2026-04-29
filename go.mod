@@ -1,11 +1,10 @@
-module github.com/henrylee2cn/teleport
+module github.com/swxctx/teleport
 
 go 1.23.0
 
 require (
 	github.com/facebookgo/ensure v0.0.0-20200202191622-63f1cf65ac4c
 	github.com/facebookgo/freeport v0.0.0-20150612182905-d4adf43b75b9
-	golang.org/x/net v0.37.0
 	golang.org/x/sys v0.35.0
 	gopkg.in/yaml.v2 v2.4.0
 )

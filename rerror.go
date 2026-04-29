@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"unsafe"
 
-	"github.com/henrylee2cn/teleport/lib/tidwall/gjson"
+	"github.com/swxctx/teleport/lib/tidwall/gjson"
 
-	"github.com/henrylee2cn/teleport/lib/goutil"
-	"github.com/henrylee2cn/teleport/utils"
+	"github.com/swxctx/teleport/lib/goutil"
+	"github.com/swxctx/teleport/utils"
 )
 
 type (

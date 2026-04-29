@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/henrylee2cn/teleport"
-	heartbeat "github.com/henrylee2cn/teleport/lib/tp-ext/plugin-heartbeat"
+	tp "github.com/swxctx/teleport"
+	heartbeat "github.com/swxctx/teleport/lib/tp-ext/plugin-heartbeat"
 )
 
 func TestHeartbeatPull1(t *testing.T) {

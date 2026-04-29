@@ -13,7 +13,7 @@
 */
 package pb
 
-import proto "github.com/henrylee2cn/teleport/lib/gogo/protobuf/proto"
+import proto "github.com/swxctx/teleport/lib/gogo/protobuf/proto"
 import fmt "fmt"
 import math "math"
 

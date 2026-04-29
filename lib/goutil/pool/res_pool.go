@@ -10,7 +10,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/henrylee2cn/teleport/lib/goutil/coarsetime"
+	"github.com/swxctx/teleport/lib/goutil/coarsetime"
 )
 
 // ResPool is a high availability/high concurrent resource pool, which automatically manages the number of resources.

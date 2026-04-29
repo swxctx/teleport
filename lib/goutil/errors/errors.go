@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/henrylee2cn/teleport/lib/goutil"
+	"github.com/swxctx/teleport/lib/goutil"
 )
 
 // New returns an error that formats as the given text.

@@ -8,9 +8,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/henrylee2cn/teleport/codec"
-	"github.com/henrylee2cn/teleport/socket"
-	"github.com/henrylee2cn/teleport/socket/example/pb"
+	"github.com/swxctx/teleport/codec"
+	"github.com/swxctx/teleport/socket"
+	"github.com/swxctx/teleport/socket/example/pb"
 )
 
 func main() {

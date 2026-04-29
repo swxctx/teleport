@@ -3,7 +3,7 @@ package m2
 import (
 	"fmt"
 
-	"github.com/henrylee2cn/teleport/lib/cfgo"
+	"github.com/swxctx/teleport/lib/cfgo"
 )
 
 type T2 struct {

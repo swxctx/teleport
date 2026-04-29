@@ -24,10 +24,10 @@ import (
 	"net/url"
 	"sync"
 
-	"github.com/henrylee2cn/teleport/lib/goutil"
-	"github.com/henrylee2cn/teleport/codec"
-	"github.com/henrylee2cn/teleport/utils"
-	"github.com/henrylee2cn/teleport/xfer"
+	"github.com/swxctx/teleport/lib/goutil"
+	"github.com/swxctx/teleport/codec"
+	"github.com/swxctx/teleport/utils"
+	"github.com/swxctx/teleport/xfer"
 )
 
 type (

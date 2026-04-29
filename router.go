@@ -22,8 +22,8 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/henrylee2cn/teleport/lib/goutil"
-	"github.com/henrylee2cn/teleport/lib/goutil/errors"
+	"github.com/swxctx/teleport/lib/goutil"
+	"github.com/swxctx/teleport/lib/goutil/errors"
 )
 
 /**
